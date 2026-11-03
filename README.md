@@ -1,11 +1,11 @@
 <div align="center">
-  <a href="https://github.com/clash-official/clash" title="Clash官网下载中文资源分享">
+  <a href="https://github.com/clash-official/clash" title="Clash 官方渠道核对清单">
 <img width="150" height="150" alt="Clash" src="https://github.com/user-attachments/assets/388727d7-80ff-4a24-8456-a52ce7b61bad" />
 
   </a>
-  <h1>Clash官网下载中文资源分享 (2026年11月更新)</h1>
+  <h1>Clash 官方渠道核对清单 (2026年11月更新)</h1>
   <p>
-    <b>Clash全平台官网下载中文资源分享 | Windows / macOS / Android / iOS / Linux / OpenWRT</b>
+    <b>发布页、Releases 与停更备份对照，减少下错源</b>
   </p>
   <p>
     <img src="https://img.shields.io/badge/Update-2026.11-brightgreen.svg" alt="Update">
@@ -24,7 +24,7 @@
 
 ## 定位：官网向「发布渠道」索引
 
-本仓库按 **Clash官网下载中文资源分享** 整理：**先核对渠道是否官方，再按发布渠道取包**。这里不做平台选型排行，也不做 Wiki 词条长文；目标是让你在下载前完成一套固定检查，并落到各项目的 **GitHub Releases**（或明确标注的备份仓）。
+本仓库按 **Clash 官方渠道核对清单** 整理：**先核对渠道是否官方，再按发布渠道取包**。这里不做平台选型排行，也不做 Wiki 词条长文；目标是让你在下载前完成一套固定检查，并落到各项目的 **GitHub Releases**（或明确标注的备份仓）。
 
 标题里的 `YYYY年M月更新` 与绿色 `Update-YYYY.MM` 徽章表示**本页维护月份**，不等于某一客户端发版日；二者由例行任务同步，请勿改乱格式。
 
@@ -206,4 +206,4 @@ A：以 GitHub 上该组织当前页面为准；本页链接可能滞后，请�
 
 ---
 
-<sub>Clash官网下载中文资源分享 · 发布渠道索引 · 2026年11月更新 · 不镜像安装包</sub>
+<sub>Clash 官方渠道核对清单 · 发布渠道索引 · 2026年11月更新 · 不镜像安装包</sub>
