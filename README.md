@@ -1,11 +1,11 @@
 <div align="center">
-  <a href="https://github.com/clash-official/clash" title="Clash 官方渠道核对清单">
+  <a href="https://github.com/clash-official/clash" title="Clash 官网导航及核对清单">
 <img width="150" height="150" alt="Clash" src="https://github.com/user-attachments/assets/388727d7-80ff-4a24-8456-a52ce7b61bad" />
 
   </a>
-  <h1>Clash 官方渠道核对清单 (2026年11月更新)</h1>
+  <h1>Clash 官网导航及核对清单 (2026年11月更新)</h1>
   <p>
-    <b>发布页、Releases 与停更备份对照，减少下错源</b>
+    <b>Clash 发布页、Releases 与停更备份对照，减少下错源</b>
   </p>
   <p>
     <img src="https://img.shields.io/badge/Update-2026.11-brightgreen.svg" alt="Update">
@@ -18,13 +18,45 @@
 
 [代理雷达](https://github.com/guiforcores/dailileida)：每日追踪 mihomo、sing-box、Xray、V2Ray、Clash 及自研内核的代理客户端：开源项目看 GitHub Star，商店应用看美区 App Store / Google Play 评分数。
 
-**本页导航：** [官方核对清单](#官方核对清单) · [发布渠道卡片](#发布渠道卡片) · [渠道对照](#渠道对照一眼看) · [停更与备份](#停更与备份渠道) · [订阅说明](#订阅与节点说明) · [FAQ](#faq) · [免责](#免责声明)
+[节点雷达](https://jiedianleida.com/)：先按本页核对官方 Releases 渠道，再来此核验免费订阅/节点的延迟与可用性（免费节点向，非机场代购）。
+
+**本页导航：** [客户端版本](#客户端版本一览) · [官方核对清单](#官方核对清单) · [发布渠道卡片](#发布渠道卡片) · [渠道对照](#渠道对照一眼看) · [停更与备份](#停更与备份渠道) · [订阅说明](#订阅与节点说明) · [FAQ](#faq) · [免责](#免责声明)
+
+## 客户端版本一览
+
+**对应仓库**优先本项目同账号镜像（`clash-latest/*` 维护中索引仓、`clashdownload/*` 停更备份仓）。版本号/日期取该镜像 Releases Latest；镜像无 Releases 时版本取上游官方 Latest，但仓库列仍指向同账号镜像。尚无同账号镜像的客户端（Bettbox / Sparkle / ClashBox）仓库列直接指向上游官方仓。日期按 America/Los_Angeles；发版日 ≠ 本页维护月份。
+
+### 维护中
+
+| 客户端名称 | 最新版本 | 更新于 | 对应仓库 |
+|:-----------|:---------|:-------|:---------|
+| Clash Verge Rev | v2.5.10 | 2026-11-03 | [clash-latest/Clash-Verge-Rev](https://github.com/clash-latest/Clash-Verge-Rev) |
+| Clash Party | v2.0.4 | 2026-10-18 | [clash-latest/Clash-Party](https://github.com/clash-latest/Clash-Party) |
+| ClashX Meta | v1.4.47 | 2026-10-21 | [clash-latest/ClashX-Meta](https://github.com/clash-latest/ClashX-Meta) |
+| FlClash | v0.9.3 | 2026-11-03 | [clash-latest/FlClash](https://github.com/clash-latest/FlClash) |
+| Clash Mi | v1.0.31.1703 | 2026-10-08 | [clash-latest/Clash-Mi](https://github.com/clash-latest/Clash-Mi) |
+| Clash Meta for Android | v2.11.36 | 2026-10-21 | [clash-latest/Clash-Meta-for-Android](https://github.com/clash-latest/Clash-Meta-for-Android) |
+| Hiddify | v4.1.1 | 2026-03-05 | [clash-latest/Hiddify](https://github.com/clash-latest/Hiddify) |
+| Clash Nyanpasu | v2.0.1 | 2026-10-30 | [clash-latest/Clash-Nyanpasu](https://github.com/clash-latest/Clash-Nyanpasu) |
+| Bettbox | v1.19.7 | 2026-10-21 | [appshubcc/Bettbox](https://github.com/appshubcc/Bettbox) |
+| Sparkle | 1.26.10 | 2026-10-31 | [xishang0128/sparkle](https://github.com/xishang0128/sparkle) |
+| ClashBox | 1.7.4 | 2026-04-02 | [xiaobaigroup/ClashBox](https://github.com/xiaobaigroup/ClashBox) |
+
+### 停更 / 备份（历史对照，不建议日常主用）
+
+| 客户端名称 | 最新版本 | 更新于 | 对应仓库 |
+|:-----------|:---------|:-------|:---------|
+| Clash for Windows | 0.20.39 | 2024-01-22 | [clashdownload/Clash_for_Windows](https://github.com/clashdownload/Clash_for_Windows) |
+| ClashX | 1.118.0 | 2024-01-23 | [clashdownload/ClashX](https://github.com/clashdownload/ClashX) |
+| Clash for Android | 2.5.12 | 2024-01-23 | [clashdownload/Clash_for_Android](https://github.com/clashdownload/Clash_for_Android) |
+| Clash Verge（原版） | 1.3.8 | 2024-01-23 | [clashdownload/Clash_Verge](https://github.com/clashdownload/Clash_Verge) |
+| ClashN | 2.22 | 2024-04-27 | [clash-latest/clashN](https://github.com/clash-latest/clashN) |
 
 ---
 
 ## 定位：官网向「发布渠道」索引
 
-本仓库按 **Clash 官方渠道核对清单** 整理：**先核对渠道是否官方，再按发布渠道取包**。这里不做平台选型排行，也不做 Wiki 词条长文；目标是让你在下载前完成一套固定检查，并落到各项目的 **GitHub Releases**（或明确标注的备份仓）。
+本仓库按 **Clash 官网导航及核对清单** 整理：**先核对渠道是否官方，再按发布渠道取包**。这里不做平台选型排行，也不做 Wiki 词条长文；目标是让你在下载前完成一套固定检查，并落到各项目的 **GitHub Releases**（或明确标注的备份仓）。
 
 标题里的 `YYYY年M月更新` 与绿色 `Update-YYYY.MM` 徽章表示**本页维护月份**，不等于某一客户端发版日；二者由例行任务同步，请勿改乱格式。
 
@@ -157,11 +189,11 @@ OpenWRT / 软路由一般不走上述桌面 GUI 的同一套 Assets；请查对�
 
 | 历史名称 | 备份 / 原仓库 | 迁移提示 |
 |:---------|:--------------|:---------|
-| Clash for Windows | [clash-latest/Clash-for-Windows](https://github.com/clash-latest/Clash-for-Windows) | 改看渠道 A / B / D 等桌面维护项 |
-| ClashX | [clash-latest/ClashX](https://github.com/clash-latest/ClashX) | 改看渠道 C 或 A / B |
-| Clash for Android | [clash-latest/Clash-for-Android](https://github.com/clash-latest/Clash-for-Android) | 改看渠道 F |
-| Clash Verge（原版） | [zzzgydi/clash-verge/releases](https://github.com/zzzgydi/clash-verge/releases) | 日常改看渠道 A（Verge Rev） |
-| ClashN | [2dust/clashN/releases](https://github.com/2dust/clashN/releases) | 归档对照 |
+| Clash for Windows | [clashdownload/Clash_for_Windows](https://github.com/clashdownload/Clash_for_Windows) | 改看渠道 A / B / D 等桌面维护项 |
+| ClashX | [clashdownload/ClashX](https://github.com/clashdownload/ClashX) | 改看渠道 C 或 A / B |
+| Clash for Android | [clashdownload/Clash_for_Android](https://github.com/clashdownload/Clash_for_Android) | 改看渠道 F |
+| Clash Verge（原版） | [clashdownload/Clash_Verge](https://github.com/clashdownload/Clash_Verge) | 日常改看渠道 A（Verge Rev） |
+| ClashN | [clash-latest/clashN](https://github.com/clash-latest/clashN) | 归档对照 |
 
 ---
 
@@ -206,4 +238,4 @@ A：以 GitHub 上该组织当前页面为准；本页链接可能滞后，请�
 
 ---
 
-<sub>Clash 官方渠道核对清单 · 发布渠道索引 · 2026年11月更新 · 不镜像安装包</sub>
+<sub>Clash 官网导航及核对清单 · 发布渠道索引 · 2026年11月更新 · 不镜像安装包</sub>
